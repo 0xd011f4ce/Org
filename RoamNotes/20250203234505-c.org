@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4e2ffa5b-2667-4999-b6d6-8055864557c0
+:END:
+#+title: C
+
+* C Programming
+
+Here are all the notes of things I learn regarding the C programming language.
+
+** Data Structures
+
+These are the notes that I take while following [[https://www.udemy.com/course/datastructurescncpp/][this udemy course]].

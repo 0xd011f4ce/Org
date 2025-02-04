@@ -1,0 +1,5 @@
+* Org
+
+These are my org files, as far as I know there's nothing personal, just some
+stuff like notes I take from books and online courses, language flashcards, and
+I might add some agenda stuff later.

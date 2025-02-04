@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ee3cb7cd-dcbb-4d26-ad35-7dd2ee365aa1
+:END:
+#+title: Programming
+
+* Programming
+
+Here are all the notes I take while learning different topics regarding
+programming. Here lies all my knowledge!
+
+** Languages
+
+- [[id:4e2ffa5b-2667-4999-b6d6-8055864557c0][C]]
