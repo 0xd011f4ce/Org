@@ -1,4 +1,6 @@
 #+title: French Flashcards
+#+LAST_MODIFIED: Wed 05 Feb 00:38:12 UTC 2025
+
 * French
 ** A1 French
 *** Hello (Formal) :drill:
@@ -999,3 +1001,375 @@ SCHEDULED: <2025-02-08 Sat>
 How do you say *the children* in french?
 **** Answer
 Les enfants
+*** Brother :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       5f2ecc8e-7c6b-4d69-8439-29c9f4db7b33
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *brother* in french?
+**** Answer
+Le frère
+*** Sister :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       a936ec19-843d-42a6-89fc-99331fd1dd83
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *sister* in french?
+**** Answer
+La sœur
+*** One :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       266bad71-4140-4c12-86f1-e1f718eaffa9
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *one* in french?
+**** Answer
+Un / une
+*** Two :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       5c3cb269-1b89-4831-a78f-eb05a1d6b508
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *two* in french?
+**** Answer
+Deux
+*** Three :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       b8a99a35-5563-4680-ba47-c0d0de3bceb6
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *three* in french?
+**** Answer
+Trois
+*** Four :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       1ea6e4f5-55e1-446d-81b1-c45b41642216
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *four* in french?
+**** Answer
+Quatre
+*** Five :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       c6c4ec15-9510-40a0-bc53-c4d66ac094cf
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *five* in french?
+**** Answer
+Cinq
+*** Six :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       0c905af3-6873-4055-a98e-bcd99300f66b
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *six* in french?
+**** Answer
+Six
+*** Seven :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       730f6b5b-44e4-45dd-8c50-8785f189f9ab
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *seven* in french?
+**** Answer
+Sept
+*** Eight :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       eaff5e02-bbb7-4212-bc0b-ca5e77c491c3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *eight* in french?
+**** Answer
+Huit
+*** Nine :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       a45d785a-1bd1-478d-b795-80a1773fa38f
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *nine* in french?
+**** Answer
+Neuf
+*** Ten :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       f21f560e-3623-4fa5-9f86-66bbf120be6d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *ten* in french?
+**** Answer
+Dix
+*** My (Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       1bd2e2c6-4042-4b26-bc54-1080c5180b4e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective we use to say that something is ours. For example: My
+father, my mother.
+**** Answer
+Mon / Ma
+*** Your (Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       ff681382-3e3c-4eda-838f-5d0196d4f2fc
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective we use to say that something is yours. For example, your
+cousin, your sister.
+**** Answer
+Ton / Ta
+*** His/her (Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       4b4fcc4f-6502-4f44-8b9b-877b2b398f10
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective we use to say that something is his/hers. For example. His
+friend, her sister.
+**** Answer
+Son / Sa
+*** Plural possessive adjectives (for I, You, He/She) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       5afbb209-15fc-403e-9784-1bc83f18bfa7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+The plural way of saying that something belongs to me, to you, or to he/she. For
+example: your friends, my cousins.
+**** Answer
+Mes / Ses / Tes
+*** Our (Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       955cac79-8e48-4771-b471-cc24c4a1e851
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective to say that something is ours, for example, our family.
+**** Answer
+Notre
+*** Your (Plural Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       9100b9ef-7563-42a6-9034-165f52c92ba7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective for plural you (i.e. Vous)
+**** Answer
+Votre
+*** Their (Possessive adjective) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       548d11ea-2606-4c1d-9ef5-78bef542e441
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Possessive adjective to say that something is theirs.
+**** Answer
+Leur
+*** Plural possessive adjectives (for We, You, They) :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       71ee2941-5bda-4325-98d9-d2538f60bec4
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+Plural possessive adjectives for we, you, and they.
+**** Answer
+Nos, vos leurs
+*** Eleven :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       60c4533a-c921-4903-aef3-5e1075128da8
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *eleven* in french?
+**** Answer
+Onze
+*** Twelve :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       7c5cc9d1-ecd6-4e24-a058-c11a50f0cb21
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *twelve* in french?
+**** Answer
+Douze
+*** Thirteen :drill:
+SCHEDULED: <2025-02-09 Sun>
+:PROPERTIES:
+:ID:       a30db035-0634-43b4-8741-1daa13dd8ffb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-05 Wed 00:%]
+:END:
+How do you say *thirteen* in french?
+**** Answer
+Treize
