@@ -2,12 +2,98 @@
 :ID:       4e2ffa5b-2667-4999-b6d6-8055864557c0
 :END:
 #+title: C
-#+LAST_MODIFIED: Wed 05 Feb 00:43:41 UTC 2025
+#+LAST_MODIFIED: Thu 06 Feb 00:42:22 UTC 2025
 
 * C Programming
 
 Here are all the notes of things I learn regarding the C programming language.
 
-** Data Structures
+** Data Structures & Algorithms
 
-These are the notes that I take while following [[https://www.udemy.com/course/datastructurescncpp/][this udemy course]].
+The following are notes that I take regarding Data Structures & Algorithms.
+
+*** Recursion
+
+A recursive function, is a function that calls itself. This is the general form
+of a recursive function:
+
+#+begin_src C
+  type
+  func (param)
+  {
+    if (base condition)
+      {
+        fun (param);
+      }
+  }
+#+end_src
+
+In a recursive function there *must* be a base condition that will determine when
+the recursion should end. An example:
+
+#+begin_src C :results output :includes <stdio.h>
+  void
+  fun1 (int n)
+  {
+    if (n > 0)
+      {
+        printf ("%d ", n);
+        fun1 (n - 1);
+      }
+  }
+
+  int
+  main (void)
+  {
+    int x = 3;
+    fun1 (x);
+
+    return 0;
+  }
+#+end_src
+
+#+RESULTS:
+: 3 2 1
+
+Trace of the function:
+
+#+begin_src artist
+    
+     fun1 (3)
+     /	 \
+    /		  \
+   /			 \
+  3			fun1 (2)
+         /	 \
+        /		  \
+       /			 \
+      2			 fun1 (1)
+              / \
+             /	 \
+            /		  \
+           1			fun1 (0)
+                   |
+                   |
+                   |
+                   x
+
+#+end_src
+
+Recursion has two phases: /calling phase/ and /returning phase/. If we have the
+following function:
+
+#+begin_src C
+  void
+  fun (int n)
+  {
+    if (n > 0)
+      {
+        // Statements here belong to calling time;
+        fun (n - 1);
+        // Statements here belong to returning time;
+      }
+  }
+#+end_src
+
+Basically, anything executed before the recursive call is called calling time,
+and anything executed afterwards is returning time.
