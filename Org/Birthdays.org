@@ -1,0 +1,105 @@
+* Birthdays
+
+To allt he people here, I love you all so much <3
+
+** January
+
+*** TODO Dani's birthday
+SCHEDULED: <2026-02-07 Sat .+1y>
+:PROPERTIES:
+:LAST_REPEAT: [2025-02-07 Fri 00:52]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-07 Fri 00:52]
+:END:
+
+** February
+
+*** TODO Catalina's birthday
+SCHEDULED: <2025-02-13 Thu .+1y>
+
+*** TODO Dany's birthday
+SCHEDULED: <2025-02-17 Mon .+1y>
+
+*** TODO Jani's birthday
+SCHEDULED: <2025-02-27 Thu .+1y>
+
+** March
+
+*** TODO Sofia's birthday
+SCHEDULED: <2025-03-01 Sat .+1y>
+
+*** TODO Maria Alejandra's birthday
+SCHEDULED: <2025-03-22 Sat .+1y>
+
+*** TODO Mariana's birthday
+SCHEDULED: <2025-03-25 Tue .+1y>
+
+** April
+
+No one lmao
+
+** May
+
+*** TODO Rachel's birthday
+SCHEDULED: <2025-05-08 Thu .+1y>
+
+*** TODO My birthdayyy!!!! yayyyyyy!!!
+SCHEDULED: <2025-05-09 Fri .+1y>
+
+** June
+
+No one lmao x2
+
+** July
+
+*** TODO Venus' birthday
+SCHEDULED: <2025-07-09 Wed .+1y>
+
+** August
+
+No one lmao x3
+
+** September
+
+*** TODO Julian's birthday
+SCHEDULED: <2025-09-15 Mon .+1y>
+
+*** TODO Santi's birthday
+SCHEDULED: <2025-09-19 Fri .+1y>
+
+** October
+
+*** TODO Maryey's birthday
+SCHEDULED: <2025-10-01 Wed .+1y>
+
+*** TODO Andres' birthday
+SCHEDULED: <2025-10-05 Sun .+1y>
+
+*** TODO Stefita's birthday
+SCHEDULED: <2025-10-07 Tue .+1y>
+
+** November
+
+*** TODO Alfredo's birthday
+SCHEDULED: <2025-11-06 Thu .+1y>
+
+*** TODO Frey's birthday
+SCHEDULED: <2025-11-07 Fri .+1y>
+
+*** TODO Lis' birthday
+SCHEDULED: <2025-11-26 Wed .+1y>
+
+*** TODO Juanito's birthday
+SCHEDULED: <2025-11-27 Thu .+1y>
+
+** December
+
+*** TODO Chains' birthday
+SCHEDULED: <2025-12-04 Thu .+1y>
+
+*** TODO Jina's birthday
+SCHEDULED: <2025-12-06 Sat .+1y>
+
+*** TODO Michael's birthday
+SCHEDULED: <2025-12-22 Mon .+1y>
