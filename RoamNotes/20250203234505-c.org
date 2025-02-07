@@ -2,7 +2,7 @@
 :ID:       4e2ffa5b-2667-4999-b6d6-8055864557c0
 :END:
 #+title: C
-#+LAST_MODIFIED: Thu 06 Feb 00:42:22 UTC 2025
+#+LAST_MODIFIED: Fri 07 Feb 00:25:19 UTC 2025
 
 * C Programming
 
@@ -97,3 +97,224 @@ following function:
 
 Basically, anything executed before the recursive call is called calling time,
 and anything executed afterwards is returning time.
+
+**** Static and Global Variables in Recursion
+
+We can use static and global variables with recursion, let's consider the
+following function:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  fun (int n)
+  {
+    static int x = 0;
+    if (n > 0)
+      {
+        x++;
+        return fun (n-1) + x;
+      }
+
+    return 0;
+  }
+#+end_src
+
+This is the tracing for that function:
+
+#+begin_src artist
+
+             x
+           +---+
+           | 5 |
+           +---+
+
+
+      fun (5) = 25 	 
+       |					
+       |					
+       |	20
+      fun (4) + _5_ = 25		x++ = 1
+       |								
+       |								
+       |	15						
+      fun (3) + _5_ = 20		x++ = 2
+       |
+       |
+       |  10
+      fun (2) + _5_ = 15		x++ = 3
+       |
+       |
+       |   5
+      fun (1) + _5_ = 10	 	x++ = 4
+       |
+       |
+       |   0
+      fun (0) + _5_ = 5	 	x++ = 5
+       |
+       |
+       |
+       0
+#+end_src
+
+In that function we are adding to each call 5 (which is the final value of ~x~) at
+return time, which means that it'll be added after all the calls are finished
+and the control keeps returning to the original functions. The output of the
+variable ~n~ will be 25. If the variable ~x~ is not static but global, the result
+will be the same.
+
+**** Types of recursion
+
+***** Tail Recursion
+
+If the recursive call of a function is the last statement of the function, we
+say that it is of type /tail recursion/:
+
+#+begin_src C
+  void
+  fun (int n)
+  {
+    if (n > 0)
+      {
+        printf ("%d\n", n);
+        fun (n - 1);
+      }
+  }
+
+  /* [...] some other code [...] */
+
+  fun (3);
+#+end_src
+
+In that very simple function, as the recursive call is the last statement, we
+say that it is of type /tail recursion/. Everything is a tail recursive function
+is made at calling time, *nothing* is made at return time. Based in that, the
+following function, is not of type /tail recursion/:
+
+#+begin_src C
+  fun (n)
+  {
+    if (n > 0)
+      {
+        // statement
+        // statement
+        // statement
+        fun (n - 1) + n;
+      }
+  }
+#+end_src
+
+As that function has to add ~n~ at returning time, it is *not* a tail recursive
+function.
+
+Every tail recursive function can be written as a loop, or vice versa, like
+this:
+
+#+begin_src C
+  void														| void
+  fun (int n)											| fun (int n)
+  {																| {
+    if (n > 0)										|    while (n > 0)
+      {													  |      {
+        printf ("%d ", n);			  |         printf ("%d ", n);
+        fun (n - 1);						  |         n--;
+      }													  |      }
+  }															  | }
+  /* Space - O (1) */             | /* Space - O (n) */
+#+end_src
+
+If you have to write tail recursion, you better write it as a loop as recursion
+is more expensive in terms of space complexity, as it is in the order of ~n~
+whereas the loop is in the order of ~1~, so it's constant. This is because for
+each recursive call a new activation record must be created in the stack.
+
+***** Head Recursion
+
+A head recursive function, is a function whose recursive call is the *first*
+statement of the function, basically, it does all its processing after the
+recursive call. For example:
+
+#+begin_src C
+  void
+  fun (int n)
+  {
+    if (n > 0)
+      {
+        fun (n - 1);
+        /* statement */
+        /* statement */
+        /* statement */
+        /* statement */
+      }
+  }
+#+end_src
+
+That is a head recursive function. If a recursive function is neither the type
+of head or tail, we just call it a recursive function, there's no special name
+for that.
+
+A head recursive function, is to say, that it doesn't do any operations at
+calling time, and does all its processing at return time.
+
+Unlike the tail recursive function, we cannot convert a head recursive function
+to a loop that easily (we just went through each of the lines and converted it
+to a loop), for this we need to approach the problem in a different way. For
+example, let's look at the following code:
+
+#+begin_src C :results output :includes <stdio.h>
+  void
+  fun (int n)
+  {
+    if (n > 0)
+      {
+        fun (n - 1);
+        printf ("%d ", n);
+      }
+  }
+#+end_src
+
+#+RESULTS:
+: 1 2 3 
+
+Its results are 1 2 3. We cannot just make a loop like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  void
+  fun (int n)
+  {
+    while (n > 0)
+      {
+        n--;
+        printf ("%d ", n);
+      }
+  }
+#+end_src
+
+#+RESULTS:
+: 2 1 0 
+
+That just prints 2 1 0. If we want to have the same output as the head recursive
+function using a loop, we need to write the code in a different way, it could be
+written like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  void
+  fun (int n)
+  {
+    int i = 1;
+    while (i <= n)
+      {
+        printf ("%d ", i);
+        i++;
+      }
+  }
+#+end_src
+
+#+RESULTS:
+: 1 2 3 
+
+And voila, we have the same output!
+
+***** Tree Recursion
+
+***** Indirect Recursion
+
+***** Nested Recursion

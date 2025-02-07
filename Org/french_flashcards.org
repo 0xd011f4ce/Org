@@ -1,5 +1,5 @@
 #+title: French Flashcards
-#+LAST_MODIFIED: Thu 06 Feb 02:24:26 UTC 2025
+#+LAST_MODIFIED: Fri 07 Feb 00:40:26 UTC 2025
 
 * French
 ** A1 French
@@ -1629,3 +1629,503 @@ SCHEDULED: <2025-02-10 Mon>
 How do you say *the teacher* in french?
 **** Answer
 Le/la professeur(e)
+*** The doctor :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       6c63378a-4b9a-4f0d-8581-c300770b1930
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *the doctor* in french?
+**** Answer
+Le/la docteur(e)
+*** The programmer :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       5a1c3920-47db-4784-905a-ab5a79d56726
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *the programmer* in french?
+**** Answer
+Le programmeur / la programmeuse
+*** The pharmacist :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       dc63f08e-64d0-4b05-812b-01175bdeee82
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *the pharmacist* in french?
+**** Answer
+Le pharmacien / La pharmacienne
+*** We have :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       b5240670-a183-472e-8a35-324bb3e69006
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *we have* in french?
+**** Answer
+Nous avons
+On a (this is an informal way)
+*** You (plural) have :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       2e23456a-0bfe-4e52-ab38-1806e7b7229c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *you have* (you as in /vous/)
+**** Answer
+Vous avez
+*** They have :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       b379b129-f37b-4d3a-9bce-74f24aea86f2
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *they have* in french?
+**** Answer
+Ils/elles ont
+*** To work :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       c3c7065e-f050-48e3-9883-44f5bd0a9879
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *to work* in french?
+**** Answer
+Travailler
+*** Advertising :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       3a945631-6d82-4a09-985b-ed4e7306f393
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *advertising* in french?
+**** Answer
+La publicité
+*** Finance :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       69a5901d-59ea-4ecf-89df-4b331b364a4f
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *finance* in french?
+**** Answer
+La finance
+*** Education :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       eeed820d-c9ff-4e26-b845-b3bdfe9ad296
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *education* in french?
+**** Answer
+L'éducation
+*** When do you have your breakfast? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       b5c597a0-c131-4aca-85e9-df80c4e1070c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+Quand est-ce que tu prends ton déjeuner?
+*** Where does he live? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       61277ba1-9e9d-459b-a848-7584eb31ca48
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you translate that into french?
+**** Answer
+Où est-ce qu'il habite?
+*** When? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       d8cf526a-d232-4a24-b36f-c551cc18d04d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *when* in french?
+**** Answer
+Quand
+*** How? :drill:
+:PROPERTIES:
+:ID:       13857009-1a13-483d-a9ac-15dd37a96962
+:END:
+How do you say *how* in french?
+**** Answer
+Comment
+*** Where? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       69ca5efb-1594-474f-9c0e-5e0fffbb55f3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *where* in french?
+**** Answer
+Où
+*** Who? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       6958b4e0-58ed-4b9e-8dac-f624bd0e5123
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *who* in french?
+**** Answer
+Qui
+*** Why? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       af02be9b-fd19-4601-ab3e-f04be77dfbcb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *why* in french?
+**** Answer
+Pourquoi
+*** What? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       490530c5-16c6-47e1-aa0e-0d17b395ca31
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *what* in french?
+**** Answer
+Que
+*** What does he like to do? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       89fffa32-5bb4-4b9a-bfe7-7a66345344cd
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+Qu'est-ce qu'il aime faire?
+*** I prefer :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       088b765c-9fb9-4386-903b-62ae55467d3f
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *I prefer* in french?
+**** Answer
+Je préfère
+*** I like :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       5e34484a-9fca-4a4f-9300-3136b147404e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *I like* in french?
+**** Answer
+J'aime
+*** I love :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       6df0c865-6d77-4f36-bb8b-57d5dafc37f2
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *I love* in french?
+**** Answer
+J'adore
+*** It's good :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       f10ac24e-e123-4948-ac98-83604558e1b1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *it's good* in french?
+**** Answer
+C'est bon
+*** I hate :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       621ded8c-b6bf-41d8-8fcb-1df7600551e1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *I hate* in french?
+**** Answer
+Je déteste
+*** I don't like :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       60d159cf-8268-4732-b211-1e45a459acc5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say *I don't like* in french?
+**** Answer
+Je n'aime pas
+*** Conjugation of -er verbs in singular (I, You, He/She) :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       7e118409-1d1c-41ce-a68b-b3b5884f9372
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+Let's consider the verb *habiter*, how do you conjugate it with *I*, *You*, and *He/She*.
+**** Answer
+First, we remove the *-er* part, and we add the following terminations:
+
+| Pronoun | Termination |
+|---------+-------------|
+| Je      | habit-e     |
+| Tu      | habit-es    |
+| Il/elle | habit-e     |
+*** Conjugation of -er verbs in singular (We, You, They) :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       61683be6-3ab7-47f7-a5e9-5d46252e65f6
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+Let's consider the verb *parler*, how do you conjugate it with *We*, *You*, and *They*.
+**** Answer
+First, we remove the *-er* part, and we add the following terminations:
+
+| Pronoun   | Termination |
+|-----------+-------------|
+| Nous      | parl-ons    |
+| Vous      | parl-ez     |
+| Ils/elles | parl-ent    |
+*** Where do you live? :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       12312362-65be-485a-8ce5-0548915115e6
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+You habites où?
+*** I live in Paris :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       5292c3e0-9d37-420e-9ed5-b8a107bbc5af
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+J'habite a Paris
+*** We live with our family :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       1b7f0ce9-695b-4163-9927-014cc2200016
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+Nous habitons avec notre famille
+*** The Louvre museum is in Paris :drill:
+SCHEDULED: <2025-02-11 Tue>
+:PROPERTIES:
+:ID:       c6027b2d-959a-4811-a99d-35c50956547e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-02-07 Fri 00:%]
+:END:
+How do you say that in french?
+**** Answer
+Le musée du Louvre est à Paris
