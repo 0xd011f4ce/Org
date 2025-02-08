@@ -1,4 +1,4 @@
-#+LAST_MODIFIED: Wed 05 Feb 01:17:00 UTC 2025
+#+LAST_MODIFIED: Fri 07 Feb 01:40:21 UTC 2025
 
 * Inbox
 
@@ -11,8 +11,11 @@ I should read more about the efforts, the org-habit, and customise my org-mode a
    org-mode, so maybe that's a little more verbose and useful for other people.
    [2025-02-05 Wed 01:14]
 
-** TODO Finish Beroot
-SCHEDULED: <2025-02-06 Thu>
+** DONE Finish Beroot
+CLOSED: [2025-02-07 Fri 01:40] SCHEDULED: <2025-02-06 Thu>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-07 Fri 01:40]
+:END:
 I should finish beroot, at least just do the password thingy and start figuring
    out the persistance.
    
