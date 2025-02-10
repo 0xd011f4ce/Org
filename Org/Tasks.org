@@ -1,11 +1,11 @@
-#+LAST_MODIFIED: Fri 07 Feb 01:40:21 UTC 2025
+#+LAST_MODIFIED: Mon 10 Feb 01:20:34 UTC 2025
 
 * Inbox
 
 All my captured things go here
 
 ** TODO Read more about org-mode
-SCHEDULED: <2025-02-07 Fri>
+SCHEDULED: <2025-02-14 Fri>
 I should read more about the efforts, the org-habit, and customise my org-mode a
    little more. I was also thinking on moving my emacs config to be made in
    org-mode, so maybe that's a little more verbose and useful for other people.
@@ -20,4 +20,8 @@ I should finish beroot, at least just do the password thingy and start figuring
    out the persistance.
    
 [2025-02-05 Wed 01:16]
+
+** TODO Buy pizza
+SCHEDULED: <2025-02-12 Wed>
+   [2025-02-09 Sun 20:20]
 
