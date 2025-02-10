@@ -2,7 +2,7 @@
 :ID:       4e2ffa5b-2667-4999-b6d6-8055864557c0
 :END:
 #+title: C
-#+LAST_MODIFIED: Fri 07 Feb 22:18:55 UTC 2025
+#+LAST_MODIFIED: Mon 10 Feb 01:06:29 UTC 2025
 
 * C Programming
 
@@ -314,6 +314,30 @@ written like this:
 And voila, we have the same output!
 
 ***** Tree Recursion
+
+If a recursive function is calling itself only once, it is called a *linear
+recursive function*, but if it's called more than once, it is called *tree
+recursion*. The following is an example of a tree recursive function:
+
+#+begin_src C :includes <stdio.h> :results output
+  void
+  fun (int n)
+  {
+    if (n > 0)
+      {
+        printf ("%d ", n);
+        fun (n - 1);
+        fun (n - 1);
+      }
+  }
+#+end_src
+
+#+RESULTS:
+: 3 2 1 1 2 1 1 
+
+The tracing for that function is the following:
+
+[[file:images/recursion/tree_trace1.jpeg]]
 
 ***** Indirect Recursion
 
