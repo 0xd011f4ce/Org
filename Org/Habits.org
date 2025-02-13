@@ -1,12 +1,13 @@
 * Habits
 
 ** TODO Do my french flashcards
-SCHEDULED: <2025-02-12 Wed .+1d>
+SCHEDULED: <2025-02-13 Thu .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-11 Tue 21:29]
+:LAST_REPEAT: [2025-02-12 Wed 21:57]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-12 Wed 21:57]
 - State "DONE"       from "TODO"       [2025-02-11 Tue 21:29]
 - State "DONE"       from "TODO"       [2025-02-10 Mon 19:24]
 - State "DONE"       from "TODO"       [2025-02-09 Sun 19:17]
@@ -17,12 +18,13 @@ SCHEDULED: <2025-02-12 Wed .+1d>
 :END:
 
 ** TODO Do at least one lesson/read one page about programming
-SCHEDULED: <2025-02-11 Tue .+1d>
+SCHEDULED: <2025-02-13 Thu .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-10 Mon 21:50]
+:LAST_REPEAT: [2025-02-12 Wed 21:57]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-12 Wed 21:57]
 - State "DONE"       from "TODO"       [2025-02-10 Mon 21:50]
 - State "DONE"       from "TODO"       [2025-02-09 Sun 19:17]
 - State "DONE"       from "TODO"       [2025-02-08 Sat 18:32]
@@ -31,12 +33,13 @@ SCHEDULED: <2025-02-11 Tue .+1d>
 :END:
 
 ** TODO Take my pills :3
-SCHEDULED: <2025-02-12 Wed 00:00 .+1d>
+SCHEDULED: <2025-02-13 Thu 00:00 .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-11 Tue 21:29]
+:LAST_REPEAT: [2025-02-12 Wed 21:20]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-12 Wed 21:20]
 - State "DONE"       from "TODO"       [2025-02-11 Tue 21:29]
 - State "DONE"       from "TODO"       [2025-02-10 Mon 21:50]
 - State "DONE"       from "TODO"       [2025-02-09 Sun 21:30]

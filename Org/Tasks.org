@@ -1,4 +1,4 @@
-#+LAST_MODIFIED: Mon 10 Feb 01:20:34 UTC 2025
+#+LAST_MODIFIED: Thu 13 Feb 00:44:31 UTC 2025
 
 * Inbox
 
@@ -21,7 +21,10 @@ I should finish beroot, at least just do the password thingy and start figuring
    
 [2025-02-05 Wed 01:16]
 
-** TODO Buy pizza
-SCHEDULED: <2025-02-12 Wed>
+** DONE Buy pizza
+CLOSED: [2025-02-12 Wed 19:44] SCHEDULED: <2025-02-12 Wed>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-12 Wed 19:44]
+:END:
    [2025-02-09 Sun 20:20]
 
