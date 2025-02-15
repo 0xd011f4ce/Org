@@ -1,12 +1,13 @@
 * Habits
 
 ** TODO Do my french flashcards
-SCHEDULED: <2025-02-15 Sat .+1d>
+SCHEDULED: <2025-02-16 Sun .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-14 Fri 20:01]
+:LAST_REPEAT: [2025-02-15 Sat 15:05]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-15 Sat 15:05]
 - State "DONE"       from "TODO"       [2025-02-14 Fri 20:01]
 - State "DONE"       from "TODO"       [2025-02-12 Wed 21:57]
 - State "DONE"       from "TODO"       [2025-02-11 Tue 21:29]

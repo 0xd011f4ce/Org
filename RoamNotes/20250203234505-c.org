@@ -2,7 +2,8 @@
 :ID:       4e2ffa5b-2667-4999-b6d6-8055864557c0
 :END:
 #+title: C
-#+LAST_MODIFIED: Mon 10 Feb 01:06:29 UTC 2025
+#+STARTUP: inlineimages latexpreview
+#+LAST_MODIFIED: Sat 15 Feb 21:32:51 UTC 2025
 
 * C Programming
 
@@ -341,4 +342,217 @@ The tracing for that function is the following:
 
 ***** Indirect Recursion
 
+In indirect recursion there might be more than one function, and they are
+calling each other in a circular fashion.
+
+#+begin_src artist
+                     +-----+
+                     |     |
+                     |  A  |
+                     |     |
+                     +-----+
+                    /       \            
+                   /         \
+                  /           \
+                 /             \
+                /               \
+        +------+                 +-----+
+        |      |                 |     |
+        |  C   +-----------------+  B  |
+        |      |                 |     |
+        +------+                 +-----+
+#+end_src
+
+There we have three functions: *A*, *B*, and *C*. *A* calls *B*, *B* calls *C*, and *C* calls *A*
+again.
+
+Let's look at an actual example:
+
+#+begin_src C :results output :includes <stdio.h>
+  void A (int);
+  void B (int);
+
+  void
+  A (int n)
+  {
+    if (n > 0)
+      {
+        printf ("%d\n", n);
+        B (n-1);
+      }
+  }
+
+  void
+  B (int n)
+  {
+    if (n > 1)
+      {
+        printf ("%d\n", n);
+        A (n / 2);
+      }
+  }
+#+end_src
+
+#+RESULTS:
+: 20 19 9 8 4 3 1
+
+This is the tracing of that function:
+
+#+begin_src artist
+      A (20)
+     /   \
+    /     \
+   /       \
+  20        B (19)
+           /  \
+          /    \
+         /      \
+        19       A (9) 
+                / \
+               /   \
+              /     \
+             9       B (8)
+                    / \
+                   /   \
+                  /     \
+                 8       A (4)
+                        / \
+                       /   \
+                      /     \
+                     4       B (3)
+                            / \
+                           /   \
+                          /     \
+                         3       A (1)
+                                / \
+                               /   \
+                              /     \
+                             1       B (0)
+                                      |
+                                      |
+                                      |
+                                      x
+#+end_src
+
 ***** Nested Recursion
+
+A nested recursive function, is a function that is recursive, but its argument
+is a call of itself, for example:
+
+#+begin_src C
+  void
+  fun (int n)
+  {
+    if (< comparison here >)
+      {
+        /* statement */
+        /* statement */
+        fun (fun (n - 1));
+      }
+  }
+#+end_src
+
+Let's look at an actual function:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  fun (int n)
+  {
+    if (n > 100)
+      return n - 10;
+    else
+      return fun (fun (n + 11));
+  }
+#+end_src
+
+#+RESULTS:
+: 91
+
+[[file:images/recursion/nested_trace1.jpeg]]
+
+**** Uses of recursion
+
+Let's solve some actual problems using recursion
+
+***** Sum of N natural numbers
+
+Let's suppose we have a natural number N, we want to obtain the sum of all the
+other natural numbers until N. Basically, we want to do this: $1 + 2 + 3 + 4 +
+\cdots + n$. The definition will be the following:
+
+\begin{equation}
+\text{sum}(n) = \begin{cases}
+0, & n = 0\\
+\text(sum)(n - 1)+n, & n > 0
+\end{cases}
+\end{equation}
+
+With that definition, we can write the recursive function in C like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  sum (int n)
+  {
+    if (n == 0)
+      return n;
+    return sum (n - 1) + n;
+  }
+#+end_src
+
+If we run ~sum (7)~, the output would be the following:
+
+#+RESULTS:
+: 28
+
+This can also be implemented as a loop, and it will be less costly, as recursion
+uses the stack:
+
+#+begin_src C
+  int sum = 0;
+  for (int i = 0; i <= n; i++)
+    {
+      sum += i;
+    }
+#+end_src
+
+
+However, as we know, there's already a formula for getting the sum of a natural
+number, which is the following:
+
+\begin{equation}
+\text{sum}(n) = \frac{n (n + 1)}{2}
+\end{equation}
+
+Which can also be implemented like this:
+
+#+begin_src C
+  int sum = (n * (n + 1)) / 2;
+#+end_src
+
+***** Factorial of a number
+
+We can define the factorial of a number recursively like this:
+
+\begin{equation}
+\text{fact}(n) = \begin{cases}
+1, & n = 0\\
+\text{fact}(n - 1) \times n, & n > 0
+\end{cases}
+\end{equation}
+
+So the recursive function can be defined like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  fact (int n)
+  {
+    if (n == 0)
+      return 1;
+    return fact (n - 1) * n;
+  }
+#+end_src
+
+If we ran ~fact (5)~, the output would be the following:
+
+#+RESULTS:
+: 120
