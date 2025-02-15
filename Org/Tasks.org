@@ -1,15 +1,8 @@
-#+LAST_MODIFIED: Thu 13 Feb 00:44:31 UTC 2025
+#+LAST_MODIFIED: Sat 15 Feb 01:01:29 UTC 2025
 
 * Inbox
 
 All my captured things go here
-
-** TODO Read more about org-mode
-SCHEDULED: <2025-02-14 Fri>
-I should read more about the efforts, the org-habit, and customise my org-mode a
-   little more. I was also thinking on moving my emacs config to be made in
-   org-mode, so maybe that's a little more verbose and useful for other people.
-   [2025-02-05 Wed 01:14]
 
 ** DONE Finish Beroot
 CLOSED: [2025-02-07 Fri 01:40] SCHEDULED: <2025-02-06 Thu>
@@ -28,3 +21,8 @@ CLOSED: [2025-02-12 Wed 19:44] SCHEDULED: <2025-02-12 Wed>
 :END:
    [2025-02-09 Sun 20:20]
 
+** TODO get the authorisation for my medical appointment
+SCHEDULED: <2025-02-20 Thu>
+
+** TODO md appointment
+SCHEDULED: <2025-02-27 Thu>

@@ -16,7 +16,13 @@ SCHEDULED: <2026-02-07 Sat .+1y>
 ** February
 
 *** TODO Catalina's birthday
-SCHEDULED: <2025-02-13 Thu .+1y>
+SCHEDULED: <2026-02-13 Fri .+1y>
+:PROPERTIES:
+:LAST_REPEAT: [2025-02-13 Thu 21:42]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-13 Thu 21:42]
+:END:
 
 *** TODO Dany's birthday
 SCHEDULED: <2025-02-17 Mon .+1y>
