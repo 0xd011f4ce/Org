@@ -3,7 +3,7 @@
 :END:
 #+title: C
 #+STARTUP: inlineimages latexpreview
-#+LAST_MODIFIED: Sat 15 Feb 21:36:10 UTC 2025
+#+LAST_MODIFIED: Sun 16 Feb 21:20:39 UTC 2025
 
 * C Programming
 
@@ -556,3 +556,212 @@ If we ran ~fact (5)~, the output would be the following:
 
 #+RESULTS:
 : 120
+
+***** Power of a number
+
+We can define the product of a number recursively like this:
+
+\begin{equation}
+\text{pow}(m, n) = \begin{cases}
+1, & n = 0\\
+\text{pow}(m, n - 1) \times m, & n > 0
+\end{cases}
+\end{equation}
+
+So we can implement it in C like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  pow (int m, int n)
+  {
+    if (n == 0)
+      return 1;
+    return pow (m, n - 1) * n;
+  }
+#+end_src
+
+If we ran ~pow (2, 5)~, the output would be the following:
+
+#+RESULTS:
+: 120
+
+However, we can write a faster function, if we do this $2^8 = (2 \times 2)^4$, we are
+reducing the number of multiplications by half, that works if we have an even
+number, if we have an odd number, we can just add another multiplication like
+this: $2^9 = 2 \times (2 \times 2)^4$. It can be implemented in C like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  pow (int m, int n)
+  {
+    if (n == 0)
+      return 1;
+
+    if (n % 2 == 0)
+      return pow (m * m, n / 2);
+    return m * pow (m * m, (n - 1) / 2);
+  }
+#+end_src
+
+If we run ~pow (2, 9)~ the output would be the following:
+
+#+RESULTS:
+: 512
+
+And if we run ~pow (2, 8)~ the output would be the following:
+
+#+RESULTS:
+: 256
+
+[[file:images/recursion/pow_trace1.jpg]]
+
+
+***** Fibonacci Series using Recursion
+
+We can define the fibonacci series recursively like this:
+
+\begin{equation}
+\text{fib}(n) = \begin{cases}
+0, & n = 0\\
+1, & n = 1\\
+\text{fib}(n - 1) + \text{fib}(n - 1), & n > 1
+\end{cases}
+\end{equation}
+
+And it can be written in C like this:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  fib (int n)
+  {
+    if (n <= 1)
+      return n;
+
+    return fib (n - 2) + fib (n - 1);
+  }
+#+end_src
+
+If we want to obtain the 7th term in the fibonacci series, we can run ~fib (7)~,
+and the output would be the following:
+
+#+RESULTS:
+: 13
+
+We can write a solution to this problem using a for loop too:
+
+#+begin_src C :results output :includes <stdio.h>
+  int
+  fib (int n)
+  {
+    if (n <= 1)
+      return n;
+
+    int t0 = 0, t1 = 1, sum = 0;
+    for (int i = 2; i <= n; i++)
+      {
+        sum = t0 + t1;
+        t0 = t1;
+        t1 = sum;
+      }
+
+    return sum;
+  }
+#+end_src
+
+And as with the previous one, if we call ~fib (7)~, the result would be:
+
+#+RESULTS:
+: 13
+
+The trace of the recursive function is the following:
+
+[[file:images/recursion/fibonacci_trace1.jpg]]
+
+If we take a look at the tracing for that function, we see that it's calling
+itself several times for ~fib(3)~, ~fib(2)~, and ~fib(1)~ and 0. That is called
+*Excessive Recursion*.
+
+What we can do to avoid all those excessive calls is holding the values that we
+know in an array, and to avoid the calls for the values we already know. That is
+called /Memoization/. The new function would look like this:
+
+#+begin_src C
+  int F [10];
+
+  int
+  fib (int n)
+  {
+    if (n <= 1)
+      {
+        F[n] = n;
+        return n;
+      }
+
+    if (F[n - 2] == -1)
+      F[n - 2] = fib (n - 2);
+    if (F[n - 1] == -1)
+      F[n - 1] = fib (n - 1);
+
+    return F[n - 2] + F[n - 1];
+  }
+#+end_src
+
+***** Tower of Hanoi
+
+The tower of hanoi problem is the following:
+
+[[file:images/recursion/hanoi_example.jpg]]
+
+It consists of moving all the disks from tower A to tower C, using the auxiliary
+tower B. The rule, is that a big disk cannot go above a smaller disk, and only
+one disk can be moved at a time.
+
+Now, let's try to come up with a recursive solution for this problem:
+
+If we have just one disk, we can move it directly from A to C:
+
+[[file:images/recursion/hanoi_step1.jpg]]
+
+We move the disk from A to B, using C as an auxiliary tower. So we'd call the ~TOH~ function like this: ~TOH (1, A, B, C)~.
+
+If we have two disks, we move the first disk to B, the big disk to C, and the small disk to B:
+
+[[file:images/recursion/hanoi_step2.jpg]]
+
+In that we are moving the small disk from A to B, using C as auxiliary, moving
+disk from A to C, using B as auxiliary, and moving disk from B to C using A as
+auxiliary.
+
+If we have want to move three disks:
+
+[[file:images/recursion/hanoi_step3.jpg]]
+
+In that step we are moving ~n-1~ disks from A to B, moving the disk from A to C,
+and moving ~n-1~ disks from B to C. I said before that only one disk can be moved
+at a time, but we are doing that, when we are moving ~n-1~ disks, we are
+recursively moving disks from the first one to the last one. We are just
+repeating the steps that we analysed before.
+
+The recursive function is the following:
+
+#+begin_src C :results output :includes <stdio.h>
+  void
+  TOH (int n, int A, int B, int C)
+  {
+    if (n <= 0)
+      return;
+
+    TOH (n - 1, A, C, B);
+    printf ("from %d to %d\n", A, C);
+    TOH (n - 1, B, A, C);
+  }
+#+end_src
+
+#+RESULTS:
+: from 1 to 3
+: from 1 to 2
+: from 3 to 2
+: from 1 to 3
+: from 2 to 1
+: from 2 to 3
+: from 1 to 3
