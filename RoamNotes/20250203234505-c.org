@@ -3,7 +3,7 @@
 :END:
 #+title: C
 #+STARTUP: inlineimages latexpreview
-#+LAST_MODIFIED: Sat 15 Feb 21:32:51 UTC 2025
+#+LAST_MODIFIED: Sat 15 Feb 21:36:10 UTC 2025
 
 * C Programming
 
