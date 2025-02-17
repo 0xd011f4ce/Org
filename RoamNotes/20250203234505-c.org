@@ -3,7 +3,7 @@
 :END:
 #+title: C
 #+STARTUP: inlineimages latexpreview
-#+LAST_MODIFIED: Sun 16 Feb 21:20:39 UTC 2025
+#+LAST_MODIFIED: Sun 16 Feb 23:48:27 UTC 2025
 
 * C Programming
 
@@ -591,16 +591,10 @@ number, if we have an odd number, we can just add another multiplication like
 this: $2^9 = 2 \times (2 \times 2)^4$. It can be implemented in C like this:
 
 #+begin_src C :results output :includes <stdio.h>
-  int
-  pow (int m, int n)
-  {
-    if (n == 0)
-      return 1;
+  int pow (int m, int n) { if (n == 0) return 1;
 
-    if (n % 2 == 0)
-      return pow (m * m, n / 2);
-    return m * pow (m * m, (n - 1) / 2);
-  }
+    if (n % 2 == 0) return pow (m * m, n / 2); return m * pow (m * m, (n - 1) /
+      2); }
 #+end_src
 
 If we run ~pow (2, 9)~ the output would be the following:
@@ -624,7 +618,7 @@ We can define the fibonacci series recursively like this:
 \text{fib}(n) = \begin{cases}
 0, & n = 0\\
 1, & n = 1\\
-\text{fib}(n - 1) + \text{fib}(n - 1), & n > 1
+\text{fib}(n - 2) + \text{fib}(n - 1), & n > 1
 \end{cases}
 \end{equation}
 
@@ -722,7 +716,7 @@ If we have just one disk, we can move it directly from A to C:
 
 [[file:images/recursion/hanoi_step1.jpg]]
 
-We move the disk from A to B, using C as an auxiliary tower. So we'd call the ~TOH~ function like this: ~TOH (1, A, B, C)~.
+We move the disk from A to C, using B as an auxiliary tower. So we'd call the ~TOH~ function like this: ~TOH (1, A, B, C)~.
 
 If we have two disks, we move the first disk to B, the big disk to C, and the small disk to B:
 
@@ -755,6 +749,8 @@ The recursive function is the following:
     printf ("from %d to %d\n", A, C);
     TOH (n - 1, B, A, C);
   }
+
+  TOH(3, 1, 2, 3);
 #+end_src
 
 #+RESULTS:
@@ -765,3 +761,4 @@ The recursive function is the following:
 : from 2 to 1
 : from 2 to 3
 : from 1 to 3
+
