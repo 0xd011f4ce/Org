@@ -3,7 +3,7 @@
 :END:
 #+title: C
 #+STARTUP: inlineimages latexpreview
-#+LAST_MODIFIED: Sun 16 Feb 23:48:27 UTC 2025
+#+LAST_MODIFIED: Tue 18 Feb 01:02:28 UTC 2025
 
 * C Programming
 
@@ -762,3 +762,187 @@ The recursive function is the following:
 : from 2 to 3
 : from 1 to 3
 
+*** Arrays
+
+In programming languages we can have variables with different types, when we
+create a variable like ~int x = 10;~, we are allocating ~n~ number of bytes in the
+stack to hold the value /10/. It is storing a single value, we call these kinds of
+variables *scalar* variables, as they just hold a "/magnitude/". Whereas arrays, are
+a set, a collection of similar data elements grouped under one name. For
+example:
+
+#+begin_src 
+  int A[5];
+#+end_src
+
+That will assign ~4 * sizeof (int)~ bytes in the stack. We can also call an array
+as a /vector variable/. The memory allocated is contiguous, we can visualise it
+like this:
+
+#+begin_src artist
+    +----+
+  x | 10 |
+    +----+
+
+      0    1    2    3    4
+    +----+----+----+----+----+
+  A |    |    |    |    |    |
+    +----+----+----+----+----+
+#+end_src
+
+We can access individual items in array using their indices (the numbers above),
+for example, we can do:
+
+#+begin_src C
+  A[2] = 15;
+#+end_src
+
+And the value ~15~ will be stored in the third position of the array.
+
+When we simply do ~int A[5];~, as we are not initialising the values of the array,
+it'll contain garbage values, that is, values that are not initialised by
+us. What we can do is this:
+
+#+begin_src C
+  int A[5] = { 2, 4, 6, 8, 10 }; // initialising all the values
+#+end_src
+
+We'll end up with the following array in memory:
+
+#+begin_src artist
+      0    1    2    3    4
+    +----+----+----+----+----+
+  A | 2  | 4  | 6  | 8  | 10 |
+    +----+----+----+----+----+
+#+end_src
+
+We can also just initialise some of the values:
+
+#+begin_src C
+  int A[5] = { 2, 4 };
+#+end_src
+
+And the other values will be initialised to zero:
+
+#+begin_src artist
+      0    1    2    3    4
+    +----+----+----+----+----+
+  A | 2  | 4  | 0  | 0  | 0  |
+    +----+----+----+----+----+
+#+end_src
+
+If we want to initialise a completely zeroed-out array, we can do this:
+
+#+begin_src C
+  int A[5] = { 0 };
+#+end_src
+
+It will initialise the first value to 0, and the remaining ones to 0 as well.
+
+We can also define an array without specifying its size, but its elements. The
+compiler will automatically allocate the necessary space for it:
+
+#+begin_src C
+  int A[] = { 2, 4, 6, 8, 10 };
+#+end_src
+
+That will be the same as doing ~int A[5]~ and initialising the array with those
+values.
+
+If we want to access a value of an array at position ~n~, we can do it this way:
+
+#+begin_src C
+  A[n];
+
+  // for example
+  printf ("%d\n", A[0]); // should print 2
+#+end_src
+
+If we need to traverse through an array[fn:1], we can use a for-loop like this:
+
+#+begin_src C
+  for (int i = 0; i < 5; i++)
+    {
+      printf ("%d\n", A[i]);
+    }
+#+end_src
+
+Like that, we can traverse all the elements of an array. Notice that when we
+access an element ~n~ of an array, we can put its index outside the subscript,
+resulting with something like this:
+
+#+begin_src C
+  printf ("%d\n", 2[A]);
+#+end_src
+
+That works, because the ~X[y]~ operation, is actually doing the pointer arithmetic
+of ~X + y~ behind the scenes, so if we do ~y[X]~, it'd still be ~2 + X~, resulting in
+the second element of an array. Knowing this, we can also access the element of
+an array using pointer arithmetic:
+
+#+begin_src C
+  printf ("%d\n", *(A + 2));
+#+end_src
+
+**** Static vs Dynamic Arrays
+
+When we create an array in C, its size will be static, meaning that its size
+won't change throughout the execution of the program. If we do this ~int A[5]~,
+we'll have a vector variable ~A~ of size /5/ for the entirety of our program, as the
+size of the array was decided at compile time, and will be allocated at run
+time.
+
+With static arrays that are created inside the stack, its size is decided at
+compile time. But we can also create an array in the heap, so that its size, and
+its values, can all be declared at runtime. As with any value in the heap, we
+need a pointer:
+
+#+begin_src C
+  int *p;
+#+end_src
+
+And we can allocate the memory for it using a function like ~malloc~, or ~calloc~:
+
+#+begin_src C
+  p = (int *)malloc (sizeof (int) * 5);
+#+end_src
+
+That will allocate ~5 * sizeof (int)~ bytes in the heap, meaning that it has
+enough memory to contain 5 integer values. Remember that after we are done doing
+the operations that we need with the memory allocated in ~p~, we need to free it
+to avoid memory leaks. We can free that memory just by doing:
+
+#+begin_src C
+  free (p);
+#+end_src
+
+With an array inside the heap, we can access it the same as if it were a normal
+array stored in the stack:
+
+#+begin_src C
+  p[0] = 2;
+#+end_src
+
+When we declare an array inside the heap we can inrease and decrease its size
+whenever we want at runtime, we can do it using the ~realloc~ function. We can do
+it like this:
+
+#+begin_src C
+  int *p = (int *)malloc (sizeof (int * 5));
+  // do stuff with p
+  p = realloc (p, sizeof (int * 10));
+#+end_src
+
+What ~realloc~ does is that, it allocates ~n~ bytes in the heap, copies the element
+from the passed memory address, and frees the passed memory address, and sets it
+to null. The ~realloc~ function will return the address of the newly allocated
+memory space in the heap, so that's why we are assigning it again to ~p~.
+
+**** 2D Arrays
+
+
+
+* Footnotes
+
+[fn:1] *Traversing an array:* to traverse an array, is to go through all its
+elements once.

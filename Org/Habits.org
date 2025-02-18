@@ -1,12 +1,13 @@
 * Habits
 
 ** TODO Do my french flashcards
-SCHEDULED: <2025-02-17 Mon .+1d>
+SCHEDULED: <2025-02-18 Tue .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-16 Sun 21:29]
+:LAST_REPEAT: [2025-02-17 Mon 20:05]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-17 Mon 20:05]
 - State "DONE"       from "TODO"       [2025-02-16 Sun 21:29]
 - State "DONE"       from "TODO"       [2025-02-15 Sat 15:05]
 - State "DONE"       from "TODO"       [2025-02-14 Fri 20:01]
@@ -21,12 +22,13 @@ SCHEDULED: <2025-02-17 Mon .+1d>
 :END:
 
 ** TODO Do at least one lesson/read one page about programming
-SCHEDULED: <2025-02-17 Mon .+1d>
+SCHEDULED: <2025-02-18 Tue .+1d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-02-16 Sun 21:29]
+:LAST_REPEAT: [2025-02-17 Mon 20:05]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-17 Mon 20:05]
 - State "DONE"       from "TODO"       [2025-02-16 Sun 21:29]
 - State "DONE"       from "TODO"       [2025-02-15 Sat 16:36]
 - State "DONE"       from "TODO"       [2025-02-14 Fri 20:01]
