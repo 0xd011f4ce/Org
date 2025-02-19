@@ -3,7 +3,7 @@
 :END:
 #+title: C
 #+STARTUP: inlineimages latexpreview
-#+LAST_MODIFIED: Tue 18 Feb 01:02:28 UTC 2025
+#+LAST_MODIFIED: Wed 19 Feb 02:33:55 UTC 2025
 
 * C Programming
 
@@ -940,7 +940,76 @@ memory space in the heap, so that's why we are assigning it again to ~p~.
 
 **** 2D Arrays
 
+2D Arrays can be used to implement matrices, or tables of data. There are three
+ways to declare a 2 dimensional array. One of them is the normal initialisation
+we are used to:
 
+#+begin_src C
+  int A[3][4];
+#+end_src
+
+Behind the scenes, the memory will be stored linearly, as if it were a normal 1
+dimensional array:
+
+[[file:images/arrays/2d_arrays.jpeg]]
+
+We can also declare the contents of the array:
+
+#+begin_src C
+  int A[3][4] = { {1, 2, 3, 4}, {2, 4, 6, 8}, {3, 5, 7, 9} };
+#+end_src
+
+We can also do it, by creating an array of pointers like this:
+
+#+begin_src C
+  int *A[3];
+#+end_src
+
+Now we have an array that can store the address of 3 different integer arrays
+that can be 4 in size. That way, we'd have the same array as before. The entire
+array can be declared like this:
+
+#+begin_src C
+  int *A[3];
+  A[0] = malloc (sizeof (int) * 4);
+  A[1] = malloc (sizeof (int) * 4);
+  A[2] = malloc (sizeof (int) * 4);
+#+end_src
+
+And even that way, we can access it as a normal array:
+
+#+begin_src C
+  A[1][2] = 15;
+#+end_src
+
+Finally, the third method, we can create a 2D array using a double pointer like
+this:
+
+#+begin_src C
+  int **A;
+  A = malloc (sizeof (int) * 3); // rows
+
+  A[0] = malloc (sizeof (int) * 4); // columns
+  A[1] = malloc (sizeof (int) * 4); // columns
+  A[2] = malloc (sizeof (int) * 4); // columns
+#+end_src
+
+This is how both of those arrays are represented in memory:
+
+[[file:images/arrays/2d_arrays_memrep.jpeg]]
+
+If we want to traverse a 2D array, we can do so with two forloops:
+
+#+begin_src C
+  for (int i = 0; i < rows; i++)
+    {
+      for (int j = 0; j < cols; j++)
+        {
+          printf ("%d\n", A[i][j]);
+        }
+      printf ("\n");
+    }
+#+end_src
 
 * Footnotes
 

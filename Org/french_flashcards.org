@@ -1,5 +1,5 @@
 #+title: French Flashcards
-#+LAST_MODIFIED: Sat 15 Feb 01:00:27 UTC 2025
+#+LAST_MODIFIED: Wed 19 Feb 02:41:33 UTC 2025
 
 * French
 ** A1 French
