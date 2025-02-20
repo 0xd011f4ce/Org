@@ -1,4 +1,4 @@
-#+LAST_MODIFIED: Sat 15 Feb 20:31:28 UTC 2025
+#+LAST_MODIFIED: Thu 20 Feb 00:07:22 UTC 2025
 
 * Inbox
 
@@ -21,8 +21,11 @@ CLOSED: [2025-02-12 Wed 19:44] SCHEDULED: <2025-02-12 Wed>
 :END:
    [2025-02-09 Sun 20:20]
 
-** TODO get the authorisation for my medical appointment
-SCHEDULED: <2025-02-20 Thu>
+** DONE get the authorisation for my medical appointment
+CLOSED: [2025-02-19 Wed 19:07] SCHEDULED: <2025-02-19 Wed>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-02-19 Wed 19:07]
+:END:
 
 ** TODO md appointment
-SCHEDULED: <2025-02-27 Thu>
+SCHEDULED: <2025-02-26 Wed>
